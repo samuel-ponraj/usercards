@@ -1,0 +1,244 @@
+{
+  "users": [
+    {
+      "id": "fa95",
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin"
+    },
+    {
+      "id": "10ca",
+      "name": "sam",
+      "email": "samuelponraj14@gmail.com",
+      "password": "sam"
+    },
+    {
+      "id": "be7d",
+      "name": "samuel",
+      "email": "samuelponraj14@gmail.com",
+      "password": "sam"
+    },
+    {
+      "id": "3be2",
+      "name": "samasd",
+      "email": "samuelponraj@gmail.com",
+      "password": "asas"
+    },
+    {
+      "id": "2c10",
+      "name": "as",
+      "email": "asd@gmail.com",
+      "password": "sd"
+    },
+    {
+      "id": "a5e8",
+      "name": "Samuel Ponraj",
+      "email": "samuelponraj1495@gmail.com",
+      "password": "sam"
+    },
+    {
+      "id": "5755",
+      "name": "Dhoni",
+      "email": "dhoni@gmail.com",
+      "password": "dhoni"
+    },
+    {
+      "id": "2f32",
+      "name": "virat",
+      "email": "virat@gmail.com",
+      "password": "virat"
+    },
+    {
+      "id": "e357",
+      "name": "rohit",
+      "email": "rohit@gmail.com",
+      "password": "rohit"
+    },
+    {
+      "id": "f822",
+      "name": "jack",
+      "email": "jack@gmail.com",
+      "password": "jack"
+    },
+    {
+      "id": "54f3",
+      "name": "India",
+      "email": "india@gmail.com",
+      "password": "india"
+    },
+    {
+      "id": "5d1a",
+      "name": "dhoni",
+      "email": "dhoni7@gmail.com",
+      "password": "dhoni"
+    },
+    {
+      "id": "2dcc",
+      "name": "nattu",
+      "email": "nattu@gmail.com",
+      "password": "nattu"
+    },
+    {
+      "id": "5931",
+      "name": "State",
+      "email": "state@gmail.com",
+      "password": "state"
+    },
+    {
+      "id": "c546",
+      "name": "laptop",
+      "email": "laptop@gmail.com",
+      "password": "laptop"
+    },
+    {
+      "id": "29c5",
+      "name": "car",
+      "email": "car@gmail.com",
+      "password": "car"
+    },
+    {
+      "id": "4700",
+      "name": "jac",
+      "email": "jac@gmail.com",
+      "password": "jac"
+    },
+    {
+      "id": "4aea",
+      "name": "apple",
+      "email": "apple@gmail.com",
+      "password": "apple"
+    }
+  ],
+  "posts": [
+    {
+      "id": "de48",
+      "title": "samuel",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a"
+    },
+    {
+      "id": "9627",
+      "title": "What is Lorem Ipsum?",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": "4bbb",
+      "title": "Lorem Ipsum",
+      "content": "e 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was p"
+    },
+    {
+      "id": "bbdd",
+      "title": "Lorem Ipsum",
+      "content": "\"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...\""
+    },
+    {
+      "id": "70b7",
+      "title": "as",
+      "content": "ascascascaac.,,c\nassclkaassc\naasclkaaddc\n"
+    },
+    {
+      "id": "c15b",
+      "title": "ascasc",
+      "content": "ascacass"
+    },
+    {
+      "id": "6eaf",
+      "title": "asf",
+      "content": "ascac"
+    },
+    {
+      "id": "38d3",
+      "title": "dvas",
+      "content": "ascac"
+    },
+    {
+      "id": "131f",
+      "title": "hi",
+      "content": "how are you"
+    },
+    {
+      "id": "9c82",
+      "title": "sdv",
+      "content": "ssddsddc"
+    },
+    {
+      "id": "1c6a",
+      "title": "asc",
+      "content": "cascasc"
+    },
+    {
+      "id": "8a79",
+      "title": "adf",
+      "content": "as"
+    },
+    {
+      "id": "a772",
+      "title": "asf",
+      "content": "sas"
+    },
+    {
+      "id": "080d",
+      "title": "as",
+      "content": "asc"
+    },
+    {
+      "id": "999d",
+      "title": "asascascasc",
+      "content": "asc"
+    },
+    {
+      "id": "a501",
+      "title": "GitHub",
+      "content": "GitHub is a developer platform that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project."
+    },
+    {
+      "id": "6e0b",
+      "title": "GitHub",
+      "content": "GitHub is a developer platform that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project."
+    },
+    {
+      "id": "587a",
+      "title": "samuel",
+      "content": "asf"
+    },
+    {
+      "id": "53ac",
+      "title": "samuel ponraj",
+      "content": "asdfad"
+    },
+    {
+      "id": "b697",
+      "title": "samuel",
+      "content": "as"
+    },
+    {
+      "id": "7986",
+      "title": "samuelponraj",
+      "content": "as"
+    },
+    {
+      "id": "ce3d",
+      "title": "samuelponraja",
+      "content": "asvascascasc"
+    },
+    {
+      "id": "af4e",
+      "title": "samuel1",
+      "content": "sdvjkbakdcbjkaabcjkajkcbcbjkbajkjkaab a\n"
+    },
+    {
+      "id": "5a1d",
+      "title": "samuel1",
+      "content": "zmcnnm,ssdccd"
+    },
+    {
+      "id": "3d00",
+      "title": "My JSON Server",
+      "content": "How to\nCreate a repository on GitHub (<your-username>/<your-repo>)\nCreate a db.json file\nVisit https://my-json-server.typicode.com/<your-username>/<your-repo> to access your server"
+    },
+    {
+      "id": "b45d",
+      "title": "Example",
+      "content": "You can check the following server as an example:\nhttps://my-json-server.typicode.com/typicode/demo"
+    }
+  ]
+}

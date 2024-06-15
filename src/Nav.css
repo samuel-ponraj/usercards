@@ -1,0 +1,29 @@
+nav{
+    background: url(./assets/bg.jpg);
+    background-size: cover;   
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    padding: 0 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+}
+
+.logout-btn{
+    cursor: pointer;
+}
+
+p{
+    padding: 15px;
+}
+
+.options{
+    display: flex;
+}
+
+.view-btn{
+    text-decoration: none;
+    color: white;
+}
