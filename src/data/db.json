@@ -1,0 +1,133 @@
+{
+  "users": [
+    {
+      "id": "fa95",
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin"
+    },
+    {
+      "id": "10ca",
+      "name": "sam",
+      "email": "samuelponraj14@gmail.com",
+      "password": "sam"
+    },
+    {
+      "id": "be7d",
+      "name": "samuel",
+      "email": "samuelponraj14@gmail.com",
+      "password": "sam"
+    },
+    {
+      "id": "3be2",
+      "name": "samasd",
+      "email": "samuelponraj@gmail.com",
+      "password": "asas"
+    },
+    {
+      "id": "2c10",
+      "name": "as",
+      "email": "asd@gmail.com",
+      "password": "sd"
+    },
+    {
+      "id": "a5e8",
+      "name": "Samuel Ponraj",
+      "email": "samuelponraj1495@gmail.com",
+      "password": "sam"
+    },
+    {
+      "id": "5755",
+      "name": "Dhoni",
+      "email": "dhoni@gmail.com",
+      "password": "dhoni"
+    },
+    {
+      "id": "2f32",
+      "name": "virat",
+      "email": "virat@gmail.com",
+      "password": "virat"
+    },
+    {
+      "id": "e357",
+      "name": "rohit",
+      "email": "rohit@gmail.com",
+      "password": "rohit"
+    },
+    {
+      "id": "f822",
+      "name": "jack",
+      "email": "jack@gmail.com",
+      "password": "jack"
+    },
+    {
+      "id": "54f3",
+      "name": "India",
+      "email": "india@gmail.com",
+      "password": "india"
+    },
+    {
+      "id": "5d1a",
+      "name": "dhoni",
+      "email": "dhoni7@gmail.com",
+      "password": "dhoni"
+    },
+    {
+      "id": "2dcc",
+      "name": "nattu",
+      "email": "nattu@gmail.com",
+      "password": "nattu"
+    },
+    {
+      "id": "5931",
+      "name": "State",
+      "email": "state@gmail.com",
+      "password": "state"
+    },
+    {
+      "id": "c546",
+      "name": "laptop",
+      "email": "laptop@gmail.com",
+      "password": "laptop"
+    },
+    {
+      "id": "29c5",
+      "name": "car",
+      "email": "car@gmail.com",
+      "password": "car"
+    },
+    {
+      "id": "4700",
+      "name": "jac",
+      "email": "jac@gmail.com",
+      "password": "jac"
+    },
+    {
+      "id": "4aea",
+      "name": "apple",
+      "email": "apple@gmail.com",
+      "password": "apple"
+    },
+    {
+      "id": "2e8f",
+      "name": "Samuel",
+      "email": "samuel@gmail.com",
+      "password": "sam"
+    },
+    {
+      "id": "3546",
+      "name": "Ponraj",
+      "email": "samue@gmail.com",
+      "password": "sam"
+    }
+  ],
+
+
+  "posts": [
+    {
+      "id": "de48",
+      "title": "samuel",
+      "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+.admin-container{
+    background: url('../../assets/bg.jpg');
+    background-size: cover;   
+    min-height: 100vh;
+}
+
+.title{
+    color: white;
+    padding: 40px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: rgba(255, 255, 255, 0.5);
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    max-width: 250px;
+    border-radius: 20px;
+    color: rgb(93, 6, 93);
+    position: relative;
+}
+
+.cards img {
+    padding: 0;
+    max-width: 200px;
+    height: auto;
+  }
+
+h3{
+    padding: 10px 0;
+}
+
+.delete-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.delete-btn:hover{
+    color: red;
+}
