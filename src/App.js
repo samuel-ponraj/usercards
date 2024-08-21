@@ -1,11 +1,12 @@
-import { Routes , Route, useNavigate} from 'react-router-dom';
+import { Routes , Route, useNavigate, Navigate} from 'react-router-dom';
 import './App.css';
-import Login from './Login';
-import Register from './Register';
-import Home from './Home';
-import Posts from './Posts';
-import Nav from './Nav';
+import Login from './components/login/Login';
+import Register from './components/register/Register';
+import Admin from './components/adminPage/AdminPage';
+import Posts from './components/posts/Posts';
+import Nav from './components/navbar/Nav';
 import {  useEffect, useState } from 'react';
+import ProtectedRoute from './ProtectedRoute';
 
 function App() {
 
@@ -34,7 +35,6 @@ function App() {
  
   const handleLogin = (e) => {
     e.preventDefault();
-    
     const newErrors = {};
     const existingUser = users.find(user => user.email === formData.email && user.password === formData.password);
 
@@ -48,16 +48,15 @@ function App() {
     } else {
       setUsername(existingUser.name)
       setIsLoggedIn(true)
-      console.log(existingUser.name)
       localStorage.setItem('isLoggedIn', 'true');
       localStorage.setItem('username', existingUser.name);
     }
     
     if(existingUser.email === 'admin@gmail.com'){
-      navigate('/Home');
+      navigate('/admin');
     }
     else{
-      navigate('/Posts')
+      navigate('/posts')
     }
   };
 
@@ -68,6 +67,7 @@ function App() {
       [name]: value
     });
   };
+
 
   const handleLogout = (e) => {
     e.preventDefault();
@@ -82,20 +82,30 @@ function App() {
     <div className="App">
       {isLoggedIn && <Nav username={username} handleLogout={handleLogout} />}
       <Routes>
-        <Route path="/cards"  
-               element={<Login 
-                        handleLogin={handleLogin}
-                        formData={formData}
-                        handleOnChange={handleOnChange}
-                        errors={errors}
-                        users={users}
-                        setUsers={setUsers}
-                        />}/>
-        <Route path="/Register"  element={<Register/>} />
-        <Route path='/Home'  element={<Home 
-                                      setIsLoggedIn={setIsLoggedIn}/>} />
-        <Route path="/Posts" element={<Posts/>} />
-      </Routes>
+          <Route path="/cards" 
+                element={<Login 
+                          handleLogin={handleLogin}
+                          formData={formData}
+                          handleOnChange={handleOnChange}
+                          errors={errors}
+                          users={users}
+                          setUsers={setUsers}
+                          />}/>
+          <Route path="/register" element={<Register />} />
+          <Route path='/admin' 
+                element={
+                  <ProtectedRoute isLoggedIn={isLoggedIn}>
+                    <Admin setIsLoggedIn={setIsLoggedIn} />
+                  </ProtectedRoute>
+                } />
+          <Route path='/posts' 
+                element={
+                  <ProtectedRoute isLoggedIn={isLoggedIn}>
+                    <Posts username={username} />
+                  </ProtectedRoute>
+                } />
+          <Route path="*" element={<Navigate to="/cards" />} />
+        </Routes>
     </div>
   );
 }
